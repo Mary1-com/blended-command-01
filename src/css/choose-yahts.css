@@ -1,0 +1,137 @@
+.section {}
+
+.cards {}
+
+.container {}
+
+.container-choose-cards {
+    padding: 0 15px;
+    align-items: center;
+    text-align: center;
+}
+
+.title-choose-cards {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    max-width: 714px;
+    margin: 0 auto;
+    padding-bottom: 96px;
+}
+
+.cards-box {
+    padding-bottom: 29px;
+}
+
+.cards-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.cards-item {
+    border-radius: 24px;
+    width: 392px;
+    height: 508px;
+    background-color: #fbfbfb;
+    align-items: center;
+    padding: 16px;
+}
+
+.cards-img {
+    padding-bottom: 16px;
+}
+
+.cards-title-box {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: row;
+    /* gap: 48px; */
+    padding: 16px;
+}
+
+.cards-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #1b414b;
+}
+
+.cards-title-text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.cards-hr {}
+
+.cards-prop-box {}
+
+.cards-prop-list {
+    padding: 16px 32px 32px 32px;
+}
+
+.cards-prop-item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.prop-item-title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+    opacity: 0.4;
+}
+
+.prop-item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #040306;
+
+}
+
+/* .cards-btn-box{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+    
+} */
+
+.cards-btn {
+    border: 1px solid rgba(251, 251, 251, 0.35);
+    border-radius: 15px;
+    padding: 16px 40px;
+    width: 179px;
+    height: 52px;
+    background-color: #0e1823;
+    margin: 0 auto;
+}
+
+.cards-btn:hover,
+.cards-btn:focus {
+    background-color: #fbfbfb;
+    color: #1b414b;
+    ;
+}
